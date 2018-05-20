@@ -3,10 +3,70 @@ body{
     color: #000;
 }
 
+html {
+    font-size: -moz-calc(4px + 0.45vw);
+    font-size: -webkit-calc(4px + 0.45vw);
+    font-size: calc(4px + 0.45vw);
+  }
+
+  *.focus{
+      outline: 0;
+  }
+
+  /* primary Style
+  -----------------------*/
+a{
+      text-decoration: none;
+      color: #000;
+ }
+
 .text{
     font-size: 2rem;
     padding: 2rem 0;
     -moz-columns: 3;
     -webkit-columns: 3;
     columns: 3;
+}
+
+.text p{
+    margin-bottom: 2rem;
+}
+
+.main {
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header{
+    line-height: 12rem;
+    height: 12rem;
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+header ul::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header li {
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header li:nth-child(4){
+    width: 25%;
+}
+
+header li a{
+    font-weight: 900;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
 }
