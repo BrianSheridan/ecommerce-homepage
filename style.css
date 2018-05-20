@@ -2,3 +2,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #000;
 }
+
+.text{
+    font-size: 2rem;
+    padding: 2rem 0;
+    -moz-columns: 3;
+    -webkit-columns: 3;
+    columns: 3;
+}
